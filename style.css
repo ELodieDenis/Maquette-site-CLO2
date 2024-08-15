@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(./DM_Serif_Display/Poppins/Poppins-Light.ttf);
+}
+
+* {
+    padding: 0; 
+    margin: 0; 
+
+}
+
+/* HEADER TOP */
+.header_top {
+    background: black;
+}
+
+.u_wrapper {
+    display: flex;
+    width: 75%;
+    justify-content: right;
+    align-items: center;
+    margin: 0 auto;
+    height : 35px;
+    color: white;
+}
+.u_wrapper h4 {
+    width: 700px;
+    max-width: 50%;
+    font-weight: normal;
+    font-size: 0.70rem;
+    
+}
+
+.u_wrapper a {
+    width: 125px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact {
+    justify-content: center;
+    display: flex;
+}
+
+.phone {
+    font-weight: bold;
+    align-items: center;
+}
+
+/* HEADER BOTTOM */
+.header_bottom {
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+
+}
+
+.header_bottom img {
+    height: 120px;
+    width : 120px;
+    border: none;
+    border-radius: 50%;
+    text-align: right;
+    justify-content: right;
+}
+
+.header_bottom_bottom ul{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    list-style-type: none;
+    position: relative;
+}
